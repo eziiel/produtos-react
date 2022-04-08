@@ -35,7 +35,7 @@ function MainProdutos () {
             </button>
       </div>
       <div>
-        {load && <p>Carregando</p>}
+        {load && <p>Carregando dados ...</p>}
       </div>
 
       {Object.keys(item).length> 0 &&  (
